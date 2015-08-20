@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dig It</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="app_username">Rinichulous</string>
+    <string name="app_useremail">nglofton@gmail.com</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="about_me_action_title">About Rinichulous</string>
+    <string name="about_me">About Me</string>
+    <string name="no_tags_available_user">User has not created any tags.</string>
+    <string name="no_tags_available">No tags available in your location. Click the \'+\' button to create one!</string>
+    <string name="about_me_text">Developer Name: Nicholas Lofton\nGithub alias: Rinichulous\nClass: CSE 691</string>
+
+    <string name="rest_url">http://174.109.252.155/slim/index.php</string>
+    <string name="user_endpoint">users</string>
+    <string name="register_endpoint">register</string>
+    <string name="tags_endpoint">tags</string>
+    <string name="title_activity_user">UserActivity</string>
+
+</resources>

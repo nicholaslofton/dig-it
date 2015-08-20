@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="colorPrimary">@color/medium_orchid</item>
+        <item name="colorPrimaryDark">@color/dark_orchid</item>
+    </style>
+    <style name="MyActionBarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/medium_orchid</item>
+        <item name="colorPrimaryDark">@color/dark_orchid</item>
+        <item name="android:windowContentOverlay">@drawable/drawer_shadow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+    </style>
+
+</resources>

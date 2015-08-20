@@ -1,0 +1,51 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tags"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:clipToPadding="false"/>
+
+
+        <TextView
+            android:id="@+id/empty_tags"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_tags_available"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/add_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="15dp"
+            android:elevation="6dp"
+            android:src="@drawable/ic_add_white_24dp"
+            fab:fab_colorNormal="@color/medium_orchid"
+            fab:fab_colorPressed="@color/dark_orchid"
+            fab:fab_colorRipple="@color/ripple" />
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout><!-- From: file:/Users/nglofton/AndroidStudioProjects/DigIt3/app/src/main/res/layout/fragment_tag_list.xml -->

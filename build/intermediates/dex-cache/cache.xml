@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nglofton/AndroidStudioProjects/DigIt3/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/nglofton/AndroidStudioProjects/DigIt3/app/build/intermediates/pre-dexed/debug/classes-509bab422ba4d2c53321a640a76b7e5d46becdf8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_height="fill_parent"
+    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_row"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/tag_user_icon_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="150dp"
+                android:id="@+id/tag_user_icon"
+                />
+            <ProgressBar
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/loading"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_centerHorizontal="true"
+                android:indeterminate="true" />
+        </LinearLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/data"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_black_hex_8"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tag_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:text="Tag"
+                android:textSize="20dp"
+                android:textColor="@color/white_smoke"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tag_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/tag_name"
+                android:layout_below="@+id/tag_name"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/white_smoke"
+                android:text="Username"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dig_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white_smoke"
+                android:text="Digs"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView><!-- From: file:/Users/nglofton/AndroidStudioProjects/DigIt3/app/src/main/res/layout/tagview.xml -->
